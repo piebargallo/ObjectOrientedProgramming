@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
 
-class Car {  				// The class
-	public:  				// Access specifier
-		string brand;		// Attribute
-		string model;		// Attribute
-		int year;			// Attribute
+class Car {  			// The class
+	public:  		// Access specifier
+		string brand;	// Attribute
+		string model;	// Attribute
+		int year;	// Attribute
 		Car(string x, string y, int z); // Constructor declaration
 }; // End class
 
